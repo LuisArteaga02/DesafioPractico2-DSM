@@ -42,7 +42,8 @@ dependencies {
     implementation(libs.androidx.credentials)
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.firebase.auth)
-    implementation("com.google.firebase:firebase-firestore")
+    implementation(libs.firebase.database)
+
     implementation(libs.googleid)
     implementation(libs.material)
     implementation("com.github.bumptech.glide:glide:4.16.0")
