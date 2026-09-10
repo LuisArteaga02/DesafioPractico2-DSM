@@ -1,3 +1,5 @@
+package com.example.desafiopractico2
+
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -83,7 +85,7 @@ class RegistroActivity : AppCompatActivity() {
         }
     }
 
-    
+
     private fun mostrarError(mensaje: String) {
         Toast.makeText(this, mensaje, Toast.LENGTH_LONG).show()
     }

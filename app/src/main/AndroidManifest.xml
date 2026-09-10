@@ -12,9 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DesafioPractico2">
         <activity
-            android:name=".MainActivity"
+            android:name=".RegistroActivity"
             android:exported="true"
-            android:windowSoftInputMode="adjustResize">
+            android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,9 +22,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegistroActivity"
+            android:name=".MainActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".IniciarSeccionActivity"
             android:exported="false"

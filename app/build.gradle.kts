@@ -46,9 +46,9 @@ dependencies {
 
     implementation(libs.googleid)
     implementation(libs.material)
-    implementation("com.github.bumptech.glide:glide:4.16.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
-    implementation("com.google.firebase:firebase-storage")
+   // implementation("com.github.bumptech.glide:glide:4.16.0")
+   // annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
+   // implementation("com.google.firebase:firebase-storage")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
