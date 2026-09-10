@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21975909028",
+    "project_id": "desafiopractico2-eb502",
+    "storage_bucket": "desafiopractico2-eb502.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21975909028:android:d42cb374c9d1f3dc6fdc31",
+        "android_client_info": {
+          "package_name": "com.example.desafiopractico2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAshvcBpibAsAfj4aLlPgFGvURKQQ5qRC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
