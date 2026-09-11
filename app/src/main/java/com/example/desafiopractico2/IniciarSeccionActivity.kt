@@ -50,8 +50,8 @@ class IniciarSeccionActivity : AppCompatActivity() {
                         mostrarMensaje("¡Bienvenido!")
 
 
-                        // val intent = Intent(this, CatalogoActivity::class.java)
-                        val intent = Intent(this, AgregarDestinoActivity::class.java)
+
+                        val intent = Intent(this, CatalogoActivity::class.java)
                          startActivity(intent)
                          finish()
                     } else {
