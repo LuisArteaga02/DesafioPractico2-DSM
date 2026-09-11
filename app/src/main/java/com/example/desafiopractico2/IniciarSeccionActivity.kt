@@ -51,8 +51,9 @@ class IniciarSeccionActivity : AppCompatActivity() {
 
 
                         // val intent = Intent(this, CatalogoActivity::class.java)
-                        // startActivity(intent)
-                        // finish()
+                        val intent = Intent(this, AgregarDestinoActivity::class.java)
+                         startActivity(intent)
+                         finish()
                     } else {
 
                         mostrarMensaje("Error al iniciar sesión: ${task.exception?.message}")

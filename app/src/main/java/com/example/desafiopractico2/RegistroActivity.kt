@@ -25,6 +25,8 @@ class RegistroActivity : AppCompatActivity() {
     private lateinit var etPassword: EditText
     private lateinit var btnRegistrar: Button
 
+    private lateinit var btnLogin: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
@@ -38,7 +40,7 @@ class RegistroActivity : AppCompatActivity() {
         etCorreo = findViewById(R.id.etCorreo)
         etPassword = findViewById(R.id.etPassword)
         btnRegistrar = findViewById(R.id.btnRegistrar)
-
+        btnLogin = findViewById(R.id.btnLogin)
 
         btnRegistrar.setOnClickListener {
 
@@ -57,6 +59,8 @@ class RegistroActivity : AppCompatActivity() {
                 mostrarError("La contraseña debe tener al menos 6 caracteres.")
                 return@setOnClickListener
             }
+
+
 
 
             auth.createUserWithEmailAndPassword(email, password)
@@ -82,6 +86,11 @@ class RegistroActivity : AppCompatActivity() {
                         mostrarError(task.exception?.message ?: "Error en el registro")
                     }
                 }
+        }
+
+        btnLogin.setOnClickListener {
+            startActivity(Intent(this, IniciarSeccionActivity::class.java))
+            finish()
         }
     }
 

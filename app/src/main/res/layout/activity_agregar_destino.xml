@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:text="Seleccionar Imagen de Galería"
         android:layout_marginTop="10dp"/>
-    
+
     <ImageView
         android:id="@+id/ivVistaPrevia"
         android:layout_width="match_parent"
