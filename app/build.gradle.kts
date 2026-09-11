@@ -43,7 +43,9 @@ dependencies {
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.firebase.auth)
     implementation(libs.firebase.database)
-
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.cardview:cardview:1.0.0")
     implementation(libs.googleid)
     implementation(libs.material)
    // implementation("com.github.bumptech.glide:glide:4.16.0")
