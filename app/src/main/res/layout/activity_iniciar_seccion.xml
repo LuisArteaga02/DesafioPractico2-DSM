@@ -81,7 +81,7 @@
             android:layout_marginBottom="25px"
             android:backgroundTint="@color/logoColor"
             android:fontFamily="@font/autour_one"
-            android:textColorHint="@color/MainColor" />
+            android:textColor="@color/MainColor" />
 
         <TextView
             android:id="@+id/textView3"
@@ -99,7 +99,7 @@
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:textColor="@color/MainColor"
             android:layout_marginBottom="25px"
             android:backgroundTint="@color/logoColor"
             android:ems="10"

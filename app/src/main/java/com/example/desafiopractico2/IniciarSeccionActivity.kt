@@ -27,6 +27,10 @@ class IniciarSeccionActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
 
+        if (auth.currentUser != null) {
+            irAlCatalogo()
+            return
+        }
 
         etEmail = findViewById(R.id.etCorreo)
         etPassword = findViewById(R.id.etPassword)
@@ -70,6 +74,13 @@ class IniciarSeccionActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+    }
+
+    private fun irAlCatalogo() {
+        val intent = Intent(this, MainActivity::class.java)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+        startActivity(intent)
+        finish()
     }
 
     private fun mostrarMensaje(mensaje: String) {
