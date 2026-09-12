@@ -33,11 +33,14 @@ class CatalogoActivity : AppCompatActivity() {
 
         adapter = DestinoAdapter(listaDestinos){
             destinoSeleccionado ->
+            val intent = Intent(this, EditarDestinoActivity::class.java)
+            intent.putExtra("idDestino",destinoSeleccionado.id)
+            startActivity(intent)
         }
 
         rvCatalogo.adapter = adapter
 
-     
+
         cargarDestinos()
     }
 
