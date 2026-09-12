@@ -51,7 +51,7 @@ class IniciarSeccionActivity : AppCompatActivity() {
 
 
 
-                        val intent = Intent(this, CatalogoActivity::class.java)
+                        val intent = Intent(this, MainActivity::class.java)
                          startActivity(intent)
                          finish()
                     } else {
