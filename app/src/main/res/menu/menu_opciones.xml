@@ -3,10 +3,10 @@
     >
     <item
         android:id="@+id/AgregarDestino"
-        android:title="Agregar Nuevo Destino"
+        android:title="@string/btnAgregarDestino"
         />
 
     <item
         android:id="@+id/menuCerrarSesion"
-        android:title="Cerrar Sesión" />
+        android:title="@string/CerrarSeccion" />
 </menu>

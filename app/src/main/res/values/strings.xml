@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">DesafioPractico2</string>
+    //ActivityIniciarSeccion
+    <string name="textView5">Bienvenido a Viajes Rumble</string>
+    <string name="Login">Login</string>
+    <string name="Correo">Correo</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="Registro">Registro</string>
+    <string name="Registrarme">Registrarme</string>
+    <string name="tituloEditarDestino">Editar Destino</string>
+    <string name="NombreDestino">Nombre del Destino</string>
+    <string name="Precio">Precio del paquete ($)</string>
+    <string name="Descripcion"> Descripcion del viaje (min. 20 caracteres)</string>
+    <string name="SeleccionarImagen">Seleccionar Imagen</string>
+    <string name="EliminarDestino">Eliminar Destino</string>
+    <string name="RegistrarDestino">Registrar Nuevo Destino</string>
+    <string name="btnGuardarDestino">Guardar</string>
+    <string name="CatalogoDestino">Catalogo Destinos</string>
+    <string name="btnAgregarDestino">Agregar Destino</string>
+    <string name="GuardarCambios">Guardar Cambios</string>
+    <string name="CerrarSeccion">Cerrar La Seccion</string>
 </resources>

@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20px"
     android:orientation="vertical"
     android:background="@color/TreeColor">
 
@@ -14,11 +15,12 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/RegistrarDestino"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/autour_one"
-            android:text="Registrar Nuevo Destino"
+            android:text="@string/btnAgregarDestino"
             android:textColor="@color/TreeColor"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -29,7 +31,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/TreeColor"
             android:fontFamily="@font/autour_one"
-            android:hint="Nombre del destino"
+            android:hint="@string/NombreDestino"
             android:textColor="@color/TreeColor"
             android:textColorHint="@color/FourColor" />
 
@@ -50,7 +52,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/TreeColor"
             android:fontFamily="@font/autour_one"
-            android:hint="Precio del paquete ($)"
+            android:hint="@string/Precio"
             android:inputType="numberDecimal"
             android:textColor="@color/TreeColor"
             android:textColorHint="@color/FourColor" />
@@ -61,20 +63,21 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/TreeColor"
             android:fontFamily="@font/autour_one"
-            android:hint="Descripción del viaje (Mín. 20 caracteres)"
+            android:hint="@string/Descripcion"
             android:inputType="textMultiLine"
             android:lines="3"
             android:textColor="@color/TreeColor"
             android:textColorHint="@color/FourColor" />
 
-    <Button
-        android:id="@+id/btnSeleccionarImagen"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/TreeColor"
-        android:textColor="@color/MainColor"
-        android:text="Seleccionar Imagen de Galería"
-        android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btnSeleccionarImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/TreeColor"
+            android:fontFamily="@font/autour_one"
+            android:text="@string/SeleccionarImagen"
+            android:textColor="@color/MainColor" />
 
     <ImageView
         android:id="@+id/ivVistaPrevia"
@@ -84,13 +87,14 @@
         android:layout_marginTop="10dp"
         android:background="#EEEEEE"/>
 
-    <Button
-        android:id="@+id/btnGuardarDestino"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Guardar Destino"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/TreeColor"
-        android:textColor="@color/MainColor"/>
+        <Button
+            android:id="@+id/btnGuardarDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/TreeColor"
+            android:fontFamily="@font/autour_one"
+            android:text="@string/GuardarCambios"
+            android:textColor="@color/MainColor" />
     </LinearLayout>
 </LinearLayout>

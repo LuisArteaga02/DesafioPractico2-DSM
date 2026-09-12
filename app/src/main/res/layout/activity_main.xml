@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/autour_one"
             android:padding="16dp"
-            android:text="Catálogo de Destinos"
+            android:text="@string/CatalogoDestino"
 
             android:textAlignment="center"
             android:textColor="@color/MainColor"
@@ -48,7 +48,7 @@
             android:backgroundTint="@color/MainColor"
             android:fontFamily="@font/autour_one"
             android:padding="30px"
-            android:text="Agregar Destino"
+            android:text="@string/btnAgregarDestino"
             android:textColor="@color/TreeColor" />
 
         <androidx.recyclerview.widget.RecyclerView

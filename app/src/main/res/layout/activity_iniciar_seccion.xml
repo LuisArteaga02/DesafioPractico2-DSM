@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:fontFamily="@font/autour_one"
-                android:text="Bienvenido a Viajes Rumble"
+                android:text="@string/textView5"
                 android:textAlignment="center"
                 android:textColor="@color/MainColor"
                 android:textSize="24sp" />
@@ -57,7 +57,7 @@
             android:layout_marginRight="50px"
             android:layout_marginBottom="25px"
             android:fontFamily="@font/autour_one"
-            android:text="Login"
+            android:text="@string/Login"
             android:textAlignment="center"
             android:textColor="@color/MainColor"
             android:textSize="50px" />
@@ -70,7 +70,7 @@
             android:layout_marginRight="50px"
             android:layout_marginBottom="25px"
             android:fontFamily="@font/autour_one"
-            android:text="Correo"
+            android:text="@string/Correo"
             android:textColor="@color/MainColor" />
 
         <EditText
@@ -91,7 +91,7 @@
             android:layout_marginRight="50px"
             android:layout_marginBottom="25px"
             android:fontFamily="@font/autour_one"
-            android:text="Contraseña"
+            android:text="@string/Contraseña"
             android:textColor="@color/MainColor"
             android:textColorHint="@color/MainColor" />
 
@@ -115,7 +115,7 @@
             android:layout_marginBottom="25px"
             android:backgroundTint="@color/MainColor"
             android:fontFamily="@font/autour_one"
-            android:text="Login"
+            android:text="@string/Login"
             android:textColor="@color/TreeColor" />
 
         <Button
@@ -127,7 +127,7 @@
             android:layout_marginBottom="25px"
             android:backgroundTint="@color/MainColor"
             android:fontFamily="@font/autour_one"
-            android:text="Registrarte"
+            android:text="@string/Registrarme"
             android:textColor="@color/TreeColor" />
 
 

@@ -3,21 +3,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/TreeColor"
     android:padding="20dp">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Editar Destino"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:padding="20dp"
+        android:layout_margin="20px"
+        android:background="@drawable/bg2"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/etNombreDestino"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Nombre del destino" />
+
+        <TextView
+            android:id="@+id/textEditarDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/autour_one"
+            android:text="@string/btnAgregarDestino"
+            android:textColor="@color/TreeColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNombreDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/logoColor"
+            android:fontFamily="@font/autour_one"
+            android:hint="@string/NombreDestino"
+            android:textColor="@color/TreeColor"
+            android:textColorHint="@color/logoColor" />
 
     <Spinner
         android:id="@+id/spinnerPais"
@@ -26,27 +43,38 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp" />
 
-    <EditText
-        android:id="@+id/etPrecio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Precio del paquete ($)"
-        android:inputType="numberDecimal" />
+        <EditText
+            android:id="@+id/etPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/logoColor"
+            android:fontFamily="@font/autour_one"
+            android:hint="@string/Precio"
+            android:inputType="numberDecimal"
+            android:textColor="@color/TreeColor"
+            android:textColorHint="@color/logoColor" />
 
-    <EditText
-        android:id="@+id/etDescripcion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Descripción del viaje (Mín. 20 caracteres)"
-        android:inputType="textMultiLine"
-        android:lines="3" />
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/logoColor"
+            android:fontFamily="@font/autour_one"
+            android:hint="@string/Descripcion"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:textColor="@color/TreeColor"
+            android:textColorHint="@color/logoColor" />
 
-    <Button
-        android:id="@+id/btnSeleccionarImagen"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Cambiar Imagen"
-        android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/btnSeleccionarImagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/TreeColor"
+            android:fontFamily="@font/autour_one"
+            android:text="@string/SeleccionarImagen"
+            android:textColor="@color/SecondColor" />
 
     <ImageView
         android:id="@+id/ivVistaPrevia"
@@ -56,20 +84,24 @@
         android:layout_marginTop="10dp"
         android:background="#EEEEEE"/>
 
-    <Button
-        android:id="@+id/btnGuardarCambios"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Guardar Cambios"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="#2196F3"/>
+        <Button
+            android:id="@+id/btnGuardarCambios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/TreeColor"
+            android:fontFamily="@font/autour_one"
+            android:text="@string/GuardarCambios"
+            android:textColor="@color/SecondColor" />
 
-    <Button
-        android:id="@+id/btnEliminarDestino"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Eliminar Destino"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="#F44336"/>
-
+        <Button
+            android:id="@+id/btnEliminarDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/TreeColor"
+            android:text="@string/EliminarDestino"
+            android:textColor="@color/SecondColor"
+            android:fontFamily="@font/autour_one" />
+    </LinearLayout>
 </LinearLayout>

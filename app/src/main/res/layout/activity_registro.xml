@@ -12,6 +12,7 @@
         android:layout_width="409dp"
         android:layout_height="550dp"
         android:padding="80px"
+
         android:background="@drawable/bg2"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,7 +27,7 @@
             android:layout_marginTop="150px"
             android:layout_marginBottom="30px"
             android:fontFamily="@font/autour_one"
-            android:text="Registro"
+            android:text="@string/Registro"
             android:textAlignment="center"
             android:textColor="@color/TreeColor"
             android:textSize="70px"
@@ -40,7 +41,7 @@
             android:layout_marginRight="50px"
             android:layout_marginBottom="25px"
             android:fontFamily="@font/autour_one"
-            android:text="Nombre"
+            android:text="@string/Nombre"
             android:textColor="@color/TreeColor" />
 
         <EditText
@@ -61,7 +62,7 @@
             android:layout_marginRight="50px"
             android:layout_marginBottom="25px"
             android:fontFamily="@font/autour_one"
-            android:text="Correo"
+            android:text="@string/Correo"
             android:textColor="@color/TreeColor" />
 
         <EditText
@@ -83,7 +84,7 @@
             android:layout_marginRight="50px"
             android:layout_marginBottom="25px"
             android:fontFamily="@font/autour_one"
-            android:text="Contraseña"
+            android:text="@string/Contraseña"
             android:textColor="@color/TreeColor" />
 
         <EditText
@@ -104,7 +105,7 @@
             android:layout_marginBottom="30px"
             android:backgroundTint="@color/TreeColor"
             android:fontFamily="@font/autour_one"
-            android:text="Registrarme"
+            android:text="@string/Registrarme"
             android:textColor="@color/SecondColor" />
 
         <Button
@@ -114,7 +115,7 @@
             android:layout_marginBottom="30px"
             android:backgroundTint="@color/TreeColor"
             android:fontFamily="@font/autour_one"
-            android:text="Login"
+            android:text="@string/Login"
             android:textColor="@color/SecondColor" />
 
 
