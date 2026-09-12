@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="MainColor">#58A6ff </color>
+    <color name="TreeColor">#FFEDD5</color>
+    <color name="FourColor">#FCF1E3</color>
+    <color name="SecondColor">#FF6B6B</color>
+    <color name="logoColor">#FEC06E</color>
+
 </resources>

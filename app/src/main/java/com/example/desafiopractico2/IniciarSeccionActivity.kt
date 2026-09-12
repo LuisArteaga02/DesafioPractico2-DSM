@@ -18,6 +18,8 @@ class IniciarSeccionActivity : AppCompatActivity() {
     private lateinit var etPassword: EditText
     private lateinit var btnIniciarSeccion: Button
 
+    private lateinit var btnRegistro: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_iniciar_seccion)
@@ -29,6 +31,7 @@ class IniciarSeccionActivity : AppCompatActivity() {
         etEmail = findViewById(R.id.etCorreo)
         etPassword = findViewById(R.id.etPassword)
         btnIniciarSeccion = findViewById(R.id.btnIniciarSeccion)
+        btnRegistro = findViewById(R.id.btnRegistrar)
 
 
         btnIniciarSeccion.setOnClickListener {
@@ -41,6 +44,7 @@ class IniciarSeccionActivity : AppCompatActivity() {
                 mostrarMensaje("Debe ingresar su correo y contraseña.")
                 return@setOnClickListener
             }
+
 
 
             auth.signInWithEmailAndPassword(email, password)
@@ -59,6 +63,12 @@ class IniciarSeccionActivity : AppCompatActivity() {
                         mostrarMensaje("Error al iniciar sesión: ${task.exception?.message}")
                     }
                 }
+        }
+
+        btnRegistro.setOnClickListener {
+            val intent = Intent(this, RegistroActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 
