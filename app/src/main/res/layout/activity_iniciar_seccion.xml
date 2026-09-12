@@ -77,8 +77,7 @@
             android:id="@+id/etCorreo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50px"
-            android:layout_marginRight="50px"
+
             android:layout_marginBottom="25px"
             android:backgroundTint="@color/logoColor"
             android:fontFamily="@font/autour_one"
@@ -100,8 +99,7 @@
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50px"
-            android:layout_marginRight="50px"
+
             android:layout_marginBottom="25px"
             android:backgroundTint="@color/logoColor"
             android:ems="10"
